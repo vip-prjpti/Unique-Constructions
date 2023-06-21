@@ -219,10 +219,50 @@
     <!-- projects -->
     <section class="projects" id="projects">
       <h1 class="heading">our projects</h1>
+
       <div class="box-container">
-        <a href="#" class="box">
+        <a href="images/project-1.jpg" class="box">
           <div class="image">
             <img src="images/project-1.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>dream home</h3>
+              <p>construction, design</p>
+            </div>
+            <i class="fas fa-plus"></i>
+          </div>
+        </a>
+
+        <a href="images/project-2.jpg" class="box">
+          <div class="image">
+            <img src="images/project-2.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>dream home</h3>
+              <p>construction, design</p>
+            </div>
+            <i class="fas fa-plus"></i>
+          </div>
+        </a>
+
+        <a href="images/project-3.jpg" class="box">
+          <div class="image">
+            <img src="images/project-3.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>dream home</h3>
+              <p>construction, design</p>
+            </div>
+            <i class="fas fa-plus"></i>
+          </div>
+        </a>
+
+        <a href="images/project-4.jpg" class="box">
+          <div class="image">
+            <img src="images/project-4.jpg" alt="" />
           </div>
           <div class="content">
             <div class="info">
@@ -235,7 +275,112 @@
       </div>
     </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- reviews section -->
+
+    <section class="reviews">
+      <h1 class="heading">clients reviews</h1>
+      <div class="swiper reviews-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe
+              alias iure quibusdam, est perferendis temporibus eaque magnam
+              necessitatibus dicta repellat laudantium quam, odio aspernatur in
+              delectus laborum aliquid soluta unde?
+            </p>
+            <div class="user">
+              <img src="images/pic-1.png" alt="" />
+              <div class="info">
+                <h3>Parteek Singh</h3>
+
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe
+              alias iure quibusdam, est perferendis temporibus eaque magnam
+              necessitatibus dicta repellat laudantium quam, odio aspernatur in
+              delectus laborum aliquid soluta unde?
+            </p>
+            <div class="user">
+              <img src="images/pic-2.png" alt="" />
+              <div class="info">
+                <h3>Parteek Singh</h3>
+
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe
+              alias iure quibusdam, est perferendis temporibus eaque magnam
+              necessitatibus dicta repellat laudantium quam, odio aspernatur in
+              delectus laborum aliquid soluta unde?
+            </p>
+            <div class="user">
+              <img src="images/pic-3.png" alt="" />
+              <div class="info">
+                <h3>Parteek Singh</h3>
+
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- contact section -->
+
+<section class="contact" id="contact">
+   <h1 class="heading">contact us</h1>
+   <div class="row">
+    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14026.727526463561!2d77.00106010792291!3d28.489125513505265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d19e01000355b%3A0x8023c0116b7002d7!2sGurgaon!5e0!3m2!1sen!2sin!4v1687340217121!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <form action="">
+      <h3>get in touch</h3>
+      <input type="text" placeholder="name" class="box">
+      <input type="email" placeholder="email" class="box">
+      <input type="number" placeholder="phone" class="box">
+      <textarea name="" placeholder="message" class="box" id="" cols="30" rows="10"></textarea>
+      <input type="submit" value="send message" class="btn">
+    </form>
+   </div>
+</section>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
     <script src="script/script.js"></script>
+
+    <script>
+      lightGallery(document.querySelector(".projects .box-container"));
+    </script>
   </body>
 </html>

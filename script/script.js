@@ -20,21 +20,35 @@ window.onscroll = () => {
 };
 
 var swiper = new Swiper(".home-slider", {
-  loop:true,
-  grabCursor:true,
-  autoplay:{
-    delay:2500,
-    disableOnInteraction:false,
+  loop: true,
+  grabCursor: true,
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
   },
   pagination: {
     el: ".swiper-pagination",
   },
 });
-// var swiper = new Swiper(".home-slider", {
-//   loop:true,
-//   grabCursor:true,
-//   navigation: {
-//     nextEl: ".swiper-button-next",
-//     prevEl: ".swiper-button-prev",
-//   },
-// });
+
+var swiper = new Swiper(".reviews-slider", {
+  loop:true,
+  grabCursor:true,
+    autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
+  spaceBetween: 20,
+  breakpoints: {
+    640: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    991: {
+      slidesPerView: 3,
+    },
+  },
+});
+ 
