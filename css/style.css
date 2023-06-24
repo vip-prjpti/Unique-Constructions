@@ -253,8 +253,8 @@ section {
 }
 .about .row .content p {
   font-size: 1.5rem;
-  color: var(--black);
-  text-transform: capitalize;
+  color: var(--light-color);
+  line-height: 1.5;
   padding: 1.5rem 0;
 }
 
@@ -493,10 +493,14 @@ section {
 .footer .container .row .footer-col ul {
   list-style: none;
 }
+.footer .container .row .footer-col ul li {
+  font-size: 1.6rem;
+  color: var(--light-bg);
+}
 .footer .container .row .footer-col ul li a {
   font-size: 1.6rem;
-  text-transform: capitalize;
   color: var(--light-bg);
+  text-transform: capitalize;
   display: block;
   transition: all 0.3s ease;
 }

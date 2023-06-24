@@ -266,7 +266,7 @@
                 @include titleText(3.5rem);
             }
             p{
-                @include titleText(1.5rem);
+                @include graphText(1.5rem);
                 padding: 1.5rem 0;
 
             }
@@ -520,10 +520,12 @@
                 ul{
                     list-style: none;
                     li{
+                        font-size: 1.6rem;
+                        color: var(--light-bg);
                         a{
                             font-size: 1.6rem;
-                            text-transform: capitalize;
                             color: var(--light-bg);
+                            text-transform: capitalize;
                             display: block;
                             transition: all 0.3s ease;
 
