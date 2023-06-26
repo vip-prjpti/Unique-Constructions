@@ -221,8 +221,76 @@
     padding-top: 6rem;
     font-size: 4.5rem;
   }
-  // 
 }
+
+// Our policies styling
+
+.our-policies{
+  height: 30vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/project-2.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: var(--white);
+  
+  h1{
+    padding-top: 6rem;
+    font-size: 4.5rem;
+  }
+}
+
+.policies{
+  .objective{
+    ul{
+      padding: 0 0 3rem 3rem;
+      @include graphText(1.8rem);
+    }
+  }
+  .mission{
+    p{
+      @include graphText(1.8rem);
+      padding: 0 0 3rem 3rem;
+    }
+  }
+  .quality{
+    ul{
+      @include graphText(1.8rem);
+      padding: 0 0 3rem 3rem;
+      
+    }
+  }
+  
+  .equipment-list{
+    table{
+      @include graphText(1.8rem);
+      padding: 0 0 3rem 3rem;
+      border-spacing: 0px; 
+      
+      tr{
+        th{
+          @include graphText(2rem);
+          padding: 2rem;
+          border: 1px solid var(--black);
+          border-color: var(--yellow);
+          color: var(--black);
+          
+        }
+        td{
+          color: var(--black);
+          padding: 2rem;
+          border: 1px solid var(--black);
+          border-color: var(--yellow);
+          text-align: center;
+
+        }
+      }
+    }
+  }
+}
+
+
+
 
 .row{
   width: 100%;

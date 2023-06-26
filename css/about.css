@@ -208,6 +208,62 @@ section {
   font-size: 4.5rem;
 }
 
+.our-policies {
+  height: 30vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../images/project-2.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: var(--white);
+}
+.our-policies h1 {
+  padding-top: 6rem;
+  font-size: 4.5rem;
+}
+
+.policies .objective ul {
+  padding: 0 0 3rem 3rem;
+  font-size: 1.8rem;
+  color: var(--light-color);
+  line-height: 1.5;
+}
+.policies .mission p {
+  font-size: 1.8rem;
+  color: var(--light-color);
+  line-height: 1.5;
+  padding: 0 0 3rem 3rem;
+}
+.policies .quality ul {
+  font-size: 1.8rem;
+  color: var(--light-color);
+  line-height: 1.5;
+  padding: 0 0 3rem 3rem;
+}
+.policies .equipment-list table {
+  font-size: 1.8rem;
+  color: var(--light-color);
+  line-height: 1.5;
+  padding: 0 0 3rem 3rem;
+  border-spacing: 0px;
+}
+.policies .equipment-list table tr th {
+  font-size: 2rem;
+  color: var(--light-color);
+  line-height: 1.5;
+  padding: 2rem;
+  border: 1px solid var(--black);
+  border-color: var(--yellow);
+  color: var(--black);
+}
+.policies .equipment-list table tr td {
+  color: var(--black);
+  padding: 2rem;
+  border: 1px solid var(--black);
+  border-color: var(--yellow);
+  text-align: center;
+}
+
 .row {
   width: 100%;
   display: flex;

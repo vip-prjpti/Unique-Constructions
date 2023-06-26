@@ -325,6 +325,7 @@
             }
             p{
                 @include titleText(1.5rem);
+                text-transform: inherit;
             }
         }
     }
