@@ -22,7 +22,7 @@
 @mixin grid($val){
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
 @mixin titleText($titleSize){
@@ -338,7 +338,7 @@
         color: var(--white);
     }
     .box-container{
-        @include grid(40rem);
+        @include grid(30rem);
 
         .box{
             cursor: initial;
@@ -376,6 +376,7 @@
                     }
                     p{
                         @include graphText(1.5rem);
+                        text-transform: inherit;
                     }
                 }
                 i{
@@ -652,6 +653,8 @@
             }
         }
     }
+
+
     .footer{
         .container{
             .row{
